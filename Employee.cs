@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 namespace ManufactureAnalytics
 {
     // Класс Сотрудник
+    /// <summary>
+    /// FullName - полное имя сотрудника<br/>
+    /// LeadTimeInHours - затраченное время в часах
+    /// </summary>
     class Employee
     {
         public string FullName { get; set; }
