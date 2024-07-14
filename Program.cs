@@ -63,6 +63,10 @@ namespace ManufactureAnalytics
                         Console.WriteLine("Данные успешно записаны!");
                         break;
 
+                    case "4":
+                        exit = true;
+                        break;
+
 
                     default:
                         Console.WriteLine("Некорректный выбор!");
